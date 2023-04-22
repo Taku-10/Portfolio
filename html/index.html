@@ -88,7 +88,6 @@
       </div>
     </section>
   </main>
-  
 
     <!-- -----------Skills Section------------- -->
     <section id="Skills" class="container">
@@ -200,18 +199,27 @@
         <h1 class="card-title pb-3">Contact Me</h1>
         <div class="row g-5">
           <div class="col-lg-6">
-            <form action="#" method="post">
+            <form action="#" method="post" class="needs-validation" novalidate>
               <div class="mb-3">
                 <label for="name" class="form-label"><i class="bi bi-person-fill"></i> Name</label>
                 <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name" required>
+                <div class="invalid-feedback">
+                  Enter your name to continue
+                </div>
               </div>
               <div class="mb-3">
                 <label for="email" class="form-label"><i class="bi bi-envelope-fill"></i> Email</label>
                 <input type="email" class="form-control" id="email" name="email" placeholder="Enter your email address" required>
+                <div class="invalid-feedback">
+                  Enter your email address to continue
+                </div>
               </div>
               <div class="mb-3">
                 <label for="message" class="form-label"><i class="bi bi-pencil-fill"></i> Message</label>
                 <textarea class="form-control" id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+                <div class="invalid-feedback">
+                  Enter your message to continue
+                </div>
               </div>
               <button type="submit" class="btn btn-danger mt-2">Send Message</button>
             </form>
