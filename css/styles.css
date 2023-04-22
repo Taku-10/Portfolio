@@ -108,10 +108,35 @@ span {
     height: 90px;
 } */
 
-#skills img {
+.sizing img {
+    height: 100%;
+    width: 100%;
+    max-height: 90px;
+    max-width: 90px;
+  }
+  
+
+/* #Skills img {
     width: 90px;
     height: 90px;
-}
+  } */
+
+  #Skills .sizing {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .sizing img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .sizing img:hover {
+    transform: scale(1.1);
+  }
+  
 
 /*
 .skills-icons li a {
