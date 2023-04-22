@@ -13,11 +13,14 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.7.2/font/bootstrap-icons.min.css" />
     <!-- --------Custom CSS------------->
     <link rel="stylesheet" href="/css/styles.css">
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
   </head>
 </head>
 <body>
   <header>
-    <nav class="navbar navbar-expand-lg bg-danger data-bs-theme="dark"">
+
+    <nav class="navbar navbar-expand-lg bg-danger navbar-dark">
       <div class="container">
         <a class="navbar-brand logo" href="#"><span>T</span>akudzwa</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -26,22 +29,29 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav ms-auto">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
+              <a class="nav-link text-light mr-3" href="#About">
+                <i class="fas fa-user"></i> About
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#About">About</a>
+              <a class="nav-link text-light mr-3" href="#Skills">
+                <i class="fas fa-code"></i> Skills
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Skills">Skills</a>
+              <a class="nav-link text-light mr-3" href="#education">
+                <i class="fas fa-graduation-cap"></i>Education
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#education">Education</a>
+              <a class="nav-link text-light mr-3" href="#Projects">
+                <i class="fas fa-folder-open"></i>Projects
+              </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#Projects">Projects</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#Contact">Contact</a>
+              <a class="nav-link text-light mr-3" href="#Contact">
+                <i class="fas fa-envelope"></i> Contact
+              </a>
             </li>
           </ul>
         </div>
@@ -49,23 +59,23 @@
     </nav>
     
    
-    <div class="header-text container">
-      <p>Hello I'm</p>
+    <div class="header-text container d-flex justify-content-center flex-column align-items-center">
+      <p class="mb-0">Hi, I'm</p>
       <h1><span>Takudzwa</span> Maseva</h1>
       <h4>Aspiring Software Developer</h4>
+      <Button class="btn btn-danger mt-3">Download CV</Button>
   </div>
 
-  <div class="container">
-    <Button class="btn btn-danger mt-3">Download CV</Button>
-  </div>
+ 
   </header>
   
   <!-- -----------About Section------------- -->
   <main class="container mt-5">
+    <h2 class="section-title mb-5 mt-5">About Me</h2>
     <section id="About">
       <div class="card p-5 shadow border-0 mb-5">
         <div class="card-body">
-          <h1 class="card-title text-dark mb-4 heading">About Me</h1>
+
           <div class="row">
             <div class="col-md-6 order-md-1">
               <img class="img-fluid" src="https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?ixlib=rb-4.0.3&amp;ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTJ8fHByb2Zlc3Npb25hbCUyMG1hbnxlbnwwfHwwfHw%3D&amp;auto=format&amp;fit=crop&amp;w=500&amp;q=60" alt="MySelf">
@@ -91,9 +101,9 @@
 
     <!-- -----------Skills Section------------- -->
     <section id="Skills" class="container">
+      <h2 class="section-title mb-5 mt-5">Technical Skills</h2>
       <div class="card border-0 p-5 shadow mt-5">
         <div class="card-body">
-          <h1 class="card-title mb-4">Technical Skills</h1>
           <div class="row mb-5 g-2 wrapper justify-content-center align-items-center">
             <div class="col-xl-2 col-md-3 col-sm-6 col-6 sizing">
               <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
@@ -159,7 +169,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-6 mb-5">
+          <div class="col-md-6">
             <div class="card border-0 p-5 h-100 shadow">
               <div class="row">
                 <div class="col-md-3 d-flex align-items-center">
@@ -193,9 +203,9 @@
   </main>
 
   <section id="Contact" class="mt-5 container"> 
+    <h2 class="section-title mb-5 mt-5">Contact Me</h2>
     <div class="card p-5 border-0 shadow mb-5">
       <div class="card-body">
-        <h1 class="card-title pb-3">Contact Me</h1>
         <div class="row g-5">
           <div class="col-lg-6">
             <form action="#" method="post" class="needs-validation" novalidate>
