@@ -134,8 +134,22 @@ span {
   
   .sizing img:hover {
     transform: scale(1.1);
+}
+
+
+  .madeWithIcons {
+    font-size: 2.3em;
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 0.4rem;
+
   }
   
+  .madeWithIcons i {
+    padding: 10px;
+  }
+
+
 
 /*
 .skills-icons li a {
