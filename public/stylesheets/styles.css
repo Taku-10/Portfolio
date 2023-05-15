@@ -1,122 +1,129 @@
+
 body {
-    color: #080808;
-    /* color: #080808; */
-    background-color: #f1f1f1;
-    /* f5f5f5 */
-    font-family: 'Roboto', sans-serif;
-    line-height: 2.3;
+  color: #080808;
+  /* color: #080808; */
+  background-color: #f1f1f1;
+  /* f5f5f5 */
+  font-family: 'Roboto', sans-serif;
+  line-height: 2.3;
 }
 
 
 .intro-text {
-  font-size: 3.5rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+font-size: 3.5rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
 }
 
 .intro {
-  color: red;
-  font-size: 3.5rem;
-  font-family: 'Roboto', sans-serif;
-  font-weight: 700;
+color: red;
+font-size: 3.5rem;
+font-family: 'Roboto', sans-serif;
+font-weight: 700;
 }
 
 span {
-    color: red;
+  color: red;
 }
 
 .header-text {
-    margin-top: 6%;
-    font-size: 2rem;
+  margin-top: 6%;
+  font-size: 2rem;
 }
 
 .header-text h1 {
-    font-size: 0.5px;
+  font-size: 0.5px;
 }
 
 section h2 {
-  font-family: 'Merriweather', serif;
-  font-weight: 700;
-  font-size: 2.4em;
+font-family: 'Merriweather', serif;
+font-weight: 700;
+font-size: 2.4em;
 }
 
 .sizing img {
-    height: 100%;
-    width: 100%;
-    max-height: 90px;
-    max-width: 90px;
-    transition: transform 0.2s ease-in-out;
-  }
-  
-
-  #Skills .sizing {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .sizing img:hover {
-    transform: scale(1.2);
+  height: 100%;
+  width: 100%;
+  max-height: 90px;
+  max-width: 90px;
+  transition: transform 0.2s ease-in-out;
 }
 
 
-  .madeWithIcons {
-    font-size: 2.3em;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 0.4rem;
-    flex-wrap: wrap;
+#Skills .sizing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-  }
-  
-  .madeWithIcons i {
-    padding: 10px;
-  }
+.sizing img:hover {
+  transform: scale(1.2);
+}
 
 
-  .social-icons a i {
-    color: black;
-  }
-  
-  .social-icons a:hover i.bi-linkedin {
-    color: #0077B5; /* LinkedIn color */
-  }
-  
-  .social-icons a:hover i.bi-github {
-    color: #333333; /* GitHub color */
-  }
-  
-  .social-icons a:hover i.bi-facebook {
-    color: #1877F2; /* Facebook color */
-  }
-  
-  .social-icons a:hover i.bi-instagram {
-    color: #E4405F; /* Instagram color */
-  }
-  
+.madeWithIcons {
+  font-size: 2.3em;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 0.4rem;
+  flex-wrap: wrap;
+
+}
+
+.madeWithIcons i {
+  padding: 10px;
+}
 
 
-  /* Small devices (phones) */
+.social-icons a i {
+  color: black;
+}
+
+.social-icons a:hover i.bi-linkedin {
+  color: #0077B5; /* LinkedIn color */
+}
+
+.social-icons a:hover i.bi-github {
+  color: #333333; /* GitHub color */
+}
+
+.social-icons a:hover i.bi-facebook {
+  color: #1877F2; /* Facebook color */
+}
+
+.social-icons a:hover i.bi-instagram {
+  color: #E4405F; /* Instagram color */
+}
+
+.logo {
+  width: 120px; 
+  height:60px; 
+  object-fit: contain;
+  margin-left: -25px;
+ }
+
+/* Small devices (phones) */
 @media only screen and (max-width: 576px) {
-    .sizing img {
-      max-width: 50px;
-      max-height: 50px;
-    }
+  .sizing img {
+    max-width: 50px;
+    max-height: 50px;
   }
-  
-  /* Medium devices (tablets) */
-  @media only screen and (min-width: 576px) and (max-width: 768px) {
-    .sizing img {
-      max-width: 70px;
-      max-height: 70px;
-    }
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  .sizing img {
+    max-width: 70px;
+    max-height: 70px;
   }
-  
-  /* Large devices (desktops) */
-  @media only screen and (min-width: 768px) {
-    .sizing img {
-      max-width: 90px;
-      max-height: 90px;
-    }
+}
+
+/* Large devices (desktops) */
+@media only screen and (min-width: 768px) {
+  .sizing img {
+    max-width: 90px;
+    max-height: 90px;
   }
-  
+}
+
+
