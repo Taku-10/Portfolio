@@ -26,7 +26,7 @@ app.post("/contact-me", async(req, res) => {
 
     const{name, email, message} = req.body;
     const msg = {
-      to: process.env.EMAIL_FROM, // replace with your email address
+      to: process.env.EMAIL_FROM, 
       from: process.env.EMAIL_FROM,
       replyTo: email,
       subject: `New contact submission from ${name}`,
@@ -38,7 +38,7 @@ app.post("/contact-me", async(req, res) => {
     }
 
     await sgMail.send(msg);
-    res.redirect('/contact-me');
+    res.redirect('/');
 
   })
 
