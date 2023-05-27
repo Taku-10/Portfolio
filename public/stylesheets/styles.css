@@ -8,6 +8,10 @@ body {
   line-height: 2.3;
 }
 
+.card {
+  background-color: #F7F7F7;
+}
+
 .dark-text {
     color: #333333;
 }
