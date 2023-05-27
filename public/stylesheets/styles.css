@@ -1,13 +1,20 @@
 
 body {
-  color: #080808;
+  background-color: #111111;
   /* color: #080808; */
-  background-color: #f1f1f1;
+  color: #f1f1f1;
   /* f5f5f5 */
   font-family: 'Roboto', sans-serif;
   line-height: 2.3;
 }
 
+.dark-text {
+    color: #333333;
+}
+
+.light-text {
+  color: #f1f1f1;
+} 
 
 .intro-text {
 font-size: 3.5rem;
