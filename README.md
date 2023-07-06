@@ -1,5 +1,5 @@
 # Portfolio
-This is my personal portfolio website built with Bootstrap, CSS, EJS (HTML), Node.js, and Express.
+This is a portfolio built with Bootstrap, CSS, EJS (HTML), Node.js, and Express.
 
 # Features
 1. About page with more detailed information about me
