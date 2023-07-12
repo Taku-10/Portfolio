@@ -17,7 +17,7 @@ This is a portfolio built with Bootstrap, CSS, EJS (HTML), Node.js, and Express.
 5. Express
 
 # Usage
-To use this website, simply visit www.takudzwamaseva.com in your web browser. Explore the about, education, projects, skills and contact sections to learn more about me and my work. Fill out the contact form on the contact page to send me a message.
+To use this website, simply visit https://portfolio-3qvq.onrender.com/ in your web browser. Explore the about, education, projects, skills and contact sections to learn more about me and my work. Fill out the contact form on the contact page to send me a message.
 
 # Contributing
 Contributions are welcome! Please submit a pull request or create an issue if you encounter any bugs or have suggestions for new features.
