@@ -1,6 +1,6 @@
 
 body {
-  background-color: #111111;
+  background-color: #000;
   /* color: #080808; */
   color: #f1f1f1;
   /* f5f5f5 */
@@ -111,6 +111,102 @@ font-size: 2.4em;
   height:40px; 
   object-fit: contain;
  }
+
+ .hero-section {
+  background-color: #000; 
+  padding: 80px 0;
+}
+
+.hero-content h1 {
+  font-size: 4.5em;
+  letter-spacing: 0.05em;
+  font-weight: bold;
+  color: #fff;
+}
+
+.hero-content h4 {
+  color: #fff;
+}
+
+.hero-content p {
+  color: #fff;
+  font-size: 1.2em;
+}
+
+.icons {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+}
+
+.icons a i {
+  color: #fff;
+  font-size: 2em;
+}
+
+.icons a {
+  display: block;
+  margin-bottom: 0.6em;
+}
+
+/* Responsive Styles */
+
+@media (max-width: 992px) {
+  .hero-content h1 {
+    font-size: 3em;
+  }
+  
+  .hero-content h4 {
+    font-size: 1.5em;
+  }
+  
+  .hero-content p {
+    font-size: 1em;
+  }
+  
+  .icons a i {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h1 {
+    font-size: 2.5em;
+  }
+  
+  .hero-content h4 {
+    font-size: 1.2em;
+  }
+  
+  .hero-content p {
+    font-size: 0.9em;
+  }
+  
+  .icons a i {
+    font-size: 1.2em;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero-content h1 {
+    font-size: 2em;
+  }
+  
+  .hero-content h4 {
+    font-size: 1em;
+  }
+  
+  .hero-content p {
+    font-size: 0.8em;
+  }
+  
+  .icons a i {
+    font-size: 1em;
+  }
+}
+
 
 /* Small devices (phones) */
 @media only screen and (max-width: 576px) {
