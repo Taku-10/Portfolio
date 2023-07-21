@@ -1,39 +1,38 @@
-
 body {
   background-color: #000;
   /* color: #080808; */
   color: #f1f1f1;
   /* f5f5f5 */
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   line-height: 2.3;
 }
 
 .card {
-  background-color: #F7F7F7;
+  background-color: #f7f7f7;
 }
 
 .dark-text {
-    color: #333333;
+  color: #333333;
 }
 
 .light-text {
   color: #f1f1f1;
-} 
+}
 
 .intro-text {
-font-size: 3.5rem;
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
+  font-size: 3.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
 .intro {
-color: red;
-font-size: 3.5rem;
-font-family: 'Roboto', sans-serif;
-font-weight: 700;
+  color: red;
+  font-size: 3.5rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
 }
 
-span {
+.sub-color {
   color: red;
 }
 
@@ -47,9 +46,9 @@ span {
 }
 
 section h2 {
-font-family: 'Merriweather', serif;
-font-weight: 700;
-font-size: 2.4em;
+  font-family: "Merriweather", serif;
+  font-weight: 700;
+  font-size: 2.4em;
 }
 
 .sizing img {
@@ -59,7 +58,6 @@ font-size: 2.4em;
   max-width: 90px;
   transition: transform 0.2s ease-in-out;
 }
-
 
 #Skills .sizing {
   display: flex;
@@ -71,27 +69,24 @@ font-size: 2.4em;
   transform: scale(1.2);
 }
 
-
 .madeWithIcons {
   font-size: 2.3em;
   display: flex;
   justify-content: flex-start;
   margin-top: 0.4rem;
   flex-wrap: wrap;
-
 }
 
 .madeWithIcons i {
   padding: 10px;
 }
 
-
 .social-icons a i {
   color: black;
 }
 
 .social-icons a:hover i.bi-linkedin {
-  color: #0077B5; /* LinkedIn color */
+  color: #0077b5; /* LinkedIn color */
 }
 
 .social-icons a:hover i.bi-github {
@@ -99,21 +94,21 @@ font-size: 2.4em;
 }
 
 .social-icons a:hover i.bi-facebook {
-  color: #1877F2; /* Facebook color */
+  color: #1877f2; /* Facebook color */
 }
 
 .social-icons a:hover i.bi-instagram {
-  color: #E4405F; /* Instagram color */
+  color: #e4405f; /* Instagram color */
 }
 
 .logo {
-  width: 140px; 
-  height:40px; 
+  width: 140px;
+  height: 40px;
   object-fit: contain;
- }
+}
 
- .hero-section {
-  background-color: #000; 
+.hero-section {
+  background-color: #000;
   padding: 80px 0;
 }
 
@@ -151,21 +146,37 @@ font-size: 2.4em;
   margin-bottom: 0.6em;
 }
 
+.icons a:hover i.bi-linkedin {
+  color: #0077b5; /* LinkedIn color */
+}
+
+.icons a:hover i.bi-github {
+  color: #333333; /* GitHub color */
+}
+
+.icons a:hover i.bi-facebook {
+  color: #1877f2; /* Facebook color */
+}
+
+.icons a:hover i.bi-instagram {
+  color: #e4405f; /* Instagram color */
+}
+
 /* Responsive Styles */
 
 @media (max-width: 992px) {
   .hero-content h1 {
     font-size: 3em;
   }
-  
+
   .hero-content h4 {
     font-size: 1.5em;
   }
-  
+
   .hero-content p {
     font-size: 1em;
   }
-  
+
   .icons a i {
     font-size: 1.5em;
   }
@@ -175,15 +186,15 @@ font-size: 2.4em;
   .hero-content h1 {
     font-size: 2.5em;
   }
-  
+
   .hero-content h4 {
     font-size: 1.2em;
   }
-  
+
   .hero-content p {
     font-size: 0.9em;
   }
-  
+
   .icons a i {
     font-size: 1.2em;
   }
@@ -193,20 +204,19 @@ font-size: 2.4em;
   .hero-content h1 {
     font-size: 2em;
   }
-  
+
   .hero-content h4 {
     font-size: 1em;
   }
-  
+
   .hero-content p {
     font-size: 0.8em;
   }
-  
+
   .icons a i {
     font-size: 1em;
   }
 }
-
 
 /* Small devices (phones) */
 @media only screen and (max-width: 576px) {
@@ -231,5 +241,3 @@ font-size: 2.4em;
     max-height: 90px;
   }
 }
-
-
