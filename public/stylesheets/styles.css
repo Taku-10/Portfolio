@@ -162,6 +162,10 @@ section h2 {
   color: #e4405f; /* Instagram color */
 }
 
+.project-image-boarder {
+  border: 1px solid #6c757d;
+}
+
 /* Responsive Styles */
 
 @media (max-width: 992px) {
