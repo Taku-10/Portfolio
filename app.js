@@ -64,6 +64,10 @@ app.get("/education", (req, res) => {
   res.render("education.ejs");
 });
 
+app.get("/experience", (req, res) => {
+  res.render("experience.ejs");
+});
+
 app.post("/contact-me", async (req, res) => {
   const { name, email, message } = req.body;
   const msg = {

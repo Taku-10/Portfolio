@@ -245,3 +245,80 @@ section h2 {
     max-height: 90px;
   }
 }
+.experience-section {
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+}
+
+.timeline {
+  position: relative;
+}
+
+.timeline-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 15px;
+}
+
+.timeline-icon {
+  background-color: #dc3545;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  font-size: 1.75rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+}
+
+.timeline-content {
+  flex: 1;
+  padding: 15px;
+  border-left: 2px solid #dc3545;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.position-title {
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.company-name {
+  font-size: 0.9rem;
+  color: #6c757d;
+}
+
+.time-period {
+  font-size: 0.85rem;
+  font-style: italic;
+  color: #6c757d;
+}
+
+.timeline-item p {
+  font-size: 1rem;
+  color: #495057;
+}
+
+.timeline-item:hover .timeline-content {
+  background-color: #f1f1f1;
+}
+
+.timeline-item:hover .timeline-icon {
+  background-color: #d9534f;
+}
+
+.timeline-item .company-name,
+.timeline-item .time-period {
+  color: #6c757d;
+}
+
+.timeline-item .timeline-content p {
+  color: #495057;
+}
