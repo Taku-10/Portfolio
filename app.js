@@ -44,9 +44,9 @@ app.get("/", (req, res) => {
   res.render("home.ejs");
 });
 
-app.get("/about-me", (req, res) => {
-  res.render("about.ejs");
-});
+// app.get("/about-me", (req, res) => {
+//   res.render("about.ejs");
+// });
 
 app.get("/contact-me", (req, res) => {
   res.render("contact.ejs");
